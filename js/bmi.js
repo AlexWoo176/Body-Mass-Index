@@ -1,25 +1,13 @@
-function computeBMI() {
-    var height = Number(document.getElementById("height").value);
-    var heightunits = document.getElementById("heightunits").value;
-    var weight = Number(document.getElementById("weight").value);
-    var weightunits = document.getElementById("weightunits").value;
-
-
-    if (heightunits == "inches") height /= 39.3700787;
-    if (weightunits == "lb") weight /= 2.20462;
-
-
-    var BMI = Math.round(weight / Math.pow(height, 2) * 10000);
-
-    document.getElementById("output").innerText = Math.round(BMI * 100) / 100;
-
-    var output = Math.round(BMI * 100) / 100
-    if (output < 18.5)
-        document.getElementById("comment").innerText = "Underweight";
-    else if (output >= 18.5 && output <= 25)
-        document.getElementById("comment").innerText = "Normal";
-    else if (output >= 25 && output <= 30)
-        document.getElementById("comment").innerText = "Obese";
-    else if (output > 30)
-        document.getElementById("comment").innerText = "Overweight";
+function calculateBMI() {
+    let w = parseFloat(document.getElementById("weight").value);
+    let h = parseFloat(document.getElementById("height").value);
+    let bmi =  w/(Math.pow(h,2));
+    if (bmi < 18)
+    {document.getElementById("result").innerHTML = "Underweight";}
+    else if (bmi < 25.0)
+    {document.getElementById("result").innerHTML = "Normal";}
+    else if (bmi < 30.0)
+    {document.getElementById("result").innerHTML = "Overweight";}
+    else
+    {document.getElementById("result").innerHTML = "Obese";}
 }

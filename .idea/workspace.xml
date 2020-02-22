@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148b56b5-62dd-4c6c-ad5b-5f625221a53c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bmi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Curriculum Vitae/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Curriculum Vitae/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Game puzzle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Simple Calculator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TinhSoNgayTrongThang/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curriculum Vitae/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Curriculum Vitae/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Curriculum Vitae/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Curriculum Vitae/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game puzzle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Game puzzle/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Simple Calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Simple Calculator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TinhSoNgayTrongThang/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TinhSoNgayTrongThang/Index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +100,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,11 +138,12 @@
       <workItem from="1582295676792" duration="1230000" />
       <workItem from="1582300237001" duration="43000" />
       <workItem from="1582351266725" duration="82000" />
+      <workItem from="1582352453821" duration="188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3682000" />
+    <option name="totallyTimeSpent" value="3870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

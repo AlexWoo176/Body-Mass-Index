@@ -1,27 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Body Mass Index</title>
 </head>
 <body>
-    <h1>Body Mass Index Calculator</h1>
-    <p>Enter your height: <input type="text" id="height"/>
-        <select type="multiple" id="heightunits">
-            <option value="metres" selected="selected">metres</option>
-            <option value="inches">inches</option>
-        </select>
-    </p>
-    <p>Enter your weight: <input type="text" id="weight"/>
-        <select type="multiple" id="weightunits">
-            <option value="kg" selected="selected">kilograms</option>
-            <option value="lb">pounds</option>
-        </select>
-    </p>
-    <input type="submit" value="computeBMI" onclick="computeBMI();">
-    <h1>Your BMI is: <span id="output">?</span></h1>
-
-    <h2>This means you are: <span id="comment"> ?</span> </h2>
+    <h2>Body Mass Index Calculator</h2>
+<form action="BMI.html">
+    <label for="weight">Weight :</label>
+    <input type="text" name="weight" value="" id="weight" name="weight">
+    <label for="height">Height :</label>
+    <input type="text" name="height" value="" id="height" name="height">
+    <input type="button" onclick=calculateBMI() value="BMI">
+</form>
+<p id="result"></p>
 </body>
 <script src="js/bmi.js"></script>
 </html>
